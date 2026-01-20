@@ -13,6 +13,11 @@ a{
     text-decoration: none;
     color: white;
 }
+h1{
+    font-size: 40px;
+  
+    color:white;
+}
 /* header section  */
 header{
      background-color: #412567;
@@ -115,13 +120,6 @@ color: white;
     gap: 16px;
     padding: 50px 20px 0 20px;
 }
-
-
-.about-des > h1{
-    font-size: 40px;
-  
-    color:white;
-}
 .peragraph{
     color: rgb(209, 199, 199);
     display: flex;
@@ -147,4 +145,21 @@ color: white;
 .cards > p{
     color: rgb(209, 199, 199);
     text-transform: capitalize;
+}
+/* why choose us  */
+.choose-container{
+    border: 1px solid gold;
+    max-width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.grid-container{
+    border: 1px solid greenyellow;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,200px);
 }
