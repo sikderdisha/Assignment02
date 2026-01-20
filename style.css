@@ -7,6 +7,7 @@
 }
 body{
     overflow-x: hidden;
+    background-color: #1A0B2E;
 }
 a{
     text-decoration: none;
@@ -95,4 +96,55 @@ color: white;
     background-color: transparent;
     border: 1px solid #00FF88;
 }
+/* about section  */
+#about-container{
+    max-width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.about-des{
+    width: 70%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 50px 20px 0 20px;
+}
 
+
+.about-des > h1{
+    font-size: 40px;
+  
+    color:white;
+}
+.peragraph{
+    color: rgb(209, 199, 199);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.peragraph #pera-1{
+     line-height: 20px;
+}
+.about-cards{
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 200px;
+}
+.cards > h1{
+    color: #00FF88;
+}
+.cards > p{
+    color: rgb(209, 199, 199);
+    text-transform: capitalize;
+}
