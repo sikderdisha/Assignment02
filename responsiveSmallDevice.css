@@ -42,7 +42,33 @@
 }
 
 .banner-des > p{
-    font-size: 13px;
+    font-size: 12px;
+}
+/* about section  */
+
+
+
+
+/* why choose us  */
+.grid-container{
+    background-color: #230E3D;
+    max-width: 1200px;
+    margin: 40px auto 10px auto;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(5,auto);
+    gap: 24px;
+    grid-template-areas:"box1"
+                        "box2"
+                        "box3"
+                        "box4"
+                        "box5";
+}
+.box{
+    margin:0 20px;
+}
+#grid-title h1{
+    font-size: 32px;
 }
 
 }
