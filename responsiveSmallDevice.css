@@ -13,8 +13,8 @@
     }
    .circle-img{
     position: absolute;
-    top: 5%;
-    left:29%;
+    top: 8%;
+    left:30%;
 }
 .circle-img img{
     width: 150px;
@@ -22,7 +22,7 @@
 }
 .micro-img{
     position: absolute;
-    top: 10%;
+    top: 16%;
     left:41%;
 }
 .micro-img img{
@@ -30,37 +30,38 @@
     height: 80px;
 } 
 .bg-img{
-    height: 350px;
+    height: 300px;
 }
  .banner-container{
-      min-height: 500px;
+      min-height: 300px;
   }
 .banner-des{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 37%;
-    left:7%;
+    top: 60%;
+    left:9%;
 }
 
 .banner-des > p{
     font-size: 10px;
 }
 /* about section  */
-@media screen and (max-width:576px) {
-
   .about-des{
       width: 100%;
-      height: auto;          /* ✅ fixed height remove */
-      padding: 80px 20px 20px 20px; /* 🔑 top padding বাড়াও */
+      height: auto;         
+      padding:50px 20px 20px 20px; 
   }
-
+  .about-cards{
+    width: 100%;
+    padding: 20px 0;
 }
-
-
 .about-des h1{
     font-size: 30px;
+}
+.cards{
+    width: 170px;
 }
 .card1{
     grid-area: card1;
