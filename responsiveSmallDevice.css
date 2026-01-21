@@ -70,5 +70,84 @@
 #grid-title h1{
     font-size: 32px;
 }
-
+.epi-host-container .card-container{
+   flex-direction: column;
+   margin:0 20px;
 }
+.epi-container h1{
+    font-size: 32px;
+}
+.cards h3{
+    font-size: 20px;
+}
+.cards p{
+    font-size: 12px;
+}
+.host-details{
+    flex-direction: column;
+    text-align: center;
+    margin:0 20px;
+}
+.host-container .description-host{
+    padding: 10px 0;
+}
+.logo-container{
+    padding: 0 30%;
+}
+/* footer  */
+.footer {
+    height: auto;
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  /* background image full cover */
+  .footer #bg-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Logo */
+  .footer #f-heading {
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  #f-heading img {
+    width: 220px;
+  }
+
+  /* Links section */
+  #f-links {
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 25px;
+    justify-items: center;
+    margin-bottom: 20px;
+  }
+
+  #f-links p {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #f-links i {
+    font-size: 16px;
+  }
+
+  /* Copyright */
+  #f-copy {
+    position: static;
+  }
+
+  #f-copy p {
+    font-size: 12px;
+    opacity: 0.8;
+  }
+}
+
+

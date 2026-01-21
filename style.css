@@ -150,7 +150,7 @@ color: white;
 .choose-container{
     background-color: #230E3D;
     max-width: 100%;
-    margin-top: 30px;
+    padding-bottom: 30px;
 }
 #grid-title{
     padding-top: 40px;
@@ -209,7 +209,6 @@ color: white;
      padding-top: 40px;
 }
 .epi-host-container{
-    border: 1px solid greenyellow;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -230,9 +229,17 @@ color: white;
 .card-container .cards{
     flex: 1;
     border-radius: 20px;
-    height: 400px;
+    min-height: 400px;
     width: 100%;
-    border: 1px solid gold;
+    display: flex;
+    flex-direction: column;
+    background-color: #250D44;
+}
+.video-box{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
 }
 .cards video{
     max-width: 100%;
@@ -249,3 +256,85 @@ color: white;
     color: white;
     padding: 10px;
 }
+.cards .time{
+    margin-top: auto;
+    color: #00FF88;
+}
+/* host  */
+.host-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.host-details{
+   display: flex;
+   color: white;
+   border-radius: 20px;
+   align-items: center;
+   background-color: #250D44;
+   margin: 0 130px 120px 130px;
+   
+}
+.host-details p{
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(209, 199, 199);
+    padding: 10px 0 10px 0;
+}
+.host-container .logo{
+    padding: 20px;
+}
+.host-container .description-host{
+    padding: 48px 0;
+}
+.description-host .fa-brands{
+    font-size: 20px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.description-host .logo-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/* footer  */
+.footer{
+    position: relative;
+    max-width: 100%;
+    height: 200px;
+    margin-top: 15px;
+}
+.footer #bg-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer #f-heading{
+    position: absolute;
+    top: 70%;
+    left: 39%;
+}
+#f-heading img{
+    width: 400px;  
+    height: auto;   
+}
+#f-links{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top:120% ;
+    left:36% ;
+    
+}
+#f-links p,#f-copy p{
+    color: rgb(209, 199, 199);
+    
+}
+#f-copy{
+    position: absolute;
+    top: 140%;
+     left: 40%;
+}
+
