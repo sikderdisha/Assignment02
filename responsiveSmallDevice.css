@@ -23,7 +23,7 @@
 .micro-img{
     position: absolute;
     top: 9%;
-    left:44%;
+    left:48%;
 }
 .micro-img img{
     width: 60px;
@@ -32,20 +32,55 @@
 .bg-img{
     height: 350px;
 }
+ .banner-container{
+      min-height: 500px;
+  }
 .banner-des{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 28%;
-    left:5%;
+    top: 37%;
+    left:15%;
 }
 
 .banner-des > p{
-    font-size: 12px;
+    font-size: 10px;
 }
 /* about section  */
+@media screen and (max-width:576px) {
 
+  .about-des{
+      width: 100%;
+      height: auto;          /* ✅ fixed height remove */
+      padding: 80px 20px 20px 20px; /* 🔑 top padding বাড়াও */
+  }
+
+}
+
+
+.about-des h1{
+    font-size: 30px;
+}
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area: card3;
+}
+.card4{
+    grid-area: card4;
+}
+.about-cards{
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+    grid-template-rows: repeat(2,auto);
+    grid-template-areas: "card1 card2"
+                        "card3 card4";
+}
 
 
 
@@ -95,59 +130,9 @@
     padding: 0 30%;
 }
 /* footer  */
-.footer {
-    height: auto;
-    padding: 30px 15px;
-    text-align: center;
-  }
+.footer{
 
-  /* background image full cover */
-  .footer #bg-img img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  /* Logo */
-  .footer #f-heading {
-    position: static;
-    margin-bottom: 20px;
-  }
-
-  #f-heading img {
-    width: 220px;
-  }
-
-  /* Links section */
-  #f-links {
-    position: static;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px 25px;
-    justify-items: center;
-    margin-bottom: 20px;
-  }
-
-  #f-links p {
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  #f-links i {
-    font-size: 16px;
-  }
-
-  /* Copyright */
-  #f-copy {
-    position: static;
-  }
-
-  #f-copy p {
-    font-size: 12px;
-    opacity: 0.8;
-  }
+}
 }
 
 

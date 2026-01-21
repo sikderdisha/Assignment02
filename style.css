@@ -277,10 +277,10 @@ color: white;
    
 }
 .host-details p{
-    font-size: 14px;
+    font-size: 12px;
     line-height: 24px;
     color: rgb(209, 199, 199);
-    padding: 10px 0 10px 0;
+    padding: 10px;
 }
 .host-container .logo{
     padding: 20px;
@@ -299,6 +299,7 @@ color: white;
     align-items: center;
     gap: 20px;
 }
+
 /* footer  */
 .footer{
     position: relative;
