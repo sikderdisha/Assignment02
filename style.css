@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: "Inter",sans-serif;
 }
+html {
+  zoom: 100%;
+}
 body{
     overflow-x: hidden;
     background-color: #1A0B2E;
