@@ -146,8 +146,6 @@
         display: none;
     }
     
-
-    /* FORCE remove absolute */
     #f-heading,
     #f-links,
     #f-copy{
@@ -156,14 +154,11 @@
         left: auto !important;
     }
 
-    /* logo */
     #f-heading img{
         width: 200px;
-        margin: 20px auto 25px;
+        margin: 10px auto 25px;
         display: block;
     }
-
-    /* links: 2 column */
     #f-links{
         display: grid !important;
         grid-template-columns: repeat(2, 1fr);
@@ -178,8 +173,6 @@
         gap: 10px;
         font-size: 14px;
     }
-
-    /* copyright */
     #f-copy{
         margin-top: 10px;
     }
