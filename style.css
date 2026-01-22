@@ -75,7 +75,7 @@ color: white;
 .micro-img{
     position: absolute;
     top: 25%;
-    left: 46.5%;
+    left: 46%;
 }
 .micro-img img{
     width: 100px;
@@ -317,7 +317,7 @@ color: white;
 .footer #f-heading{
     position: absolute;
     top: 70%;
-    left: 39%;
+    left: 42%;
 }
 #f-heading img{
     width: 400px;  
@@ -328,7 +328,7 @@ color: white;
     gap: 30px;
     position: absolute;
     top:120% ;
-    left:36% ;
+    left:39.5% ;
     
 }
 #f-links p,#f-copy p{
@@ -338,6 +338,6 @@ color: white;
 #f-copy{
     position: absolute;
     top: 140%;
-     left: 40%;
+     left:44%;
 }
 
