@@ -63,16 +63,15 @@ color: white;
     object-fit: cover;
     
 }
-.circle-img{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
+.circle-img{ 
+    position: absolute; 
+    top: 15%; 
+    left: 39%; }
 
 .micro-img{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    position: absolute; 
+    top: 25%; 
+    left: 46%;
 }
 
 .circle-img img{
