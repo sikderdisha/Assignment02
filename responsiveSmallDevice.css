@@ -32,6 +32,18 @@
 .bg-img{
     height: 300px;
 }
+.new{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    width: 45px;
+    height: 30px;
+}
+.new p{
+    font-size: 12px;
+    top: 25%;
+    left:18%;
+}
  .banner-container{
       min-height: 300px;
   }
