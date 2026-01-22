@@ -64,15 +64,13 @@ color: white;
     
 }
 .circle-img{
-     position: absolute;
-    top: 15%;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .micro-img{
     position: absolute;
-    top: 25%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -80,11 +78,6 @@ color: white;
 .circle-img img{
     width: 310px;
     height: 310px;
-}
-.micro-img{
-    position: absolute;
-    top: 25%;
-    left: 46%;
 }
 .micro-img img{
     width: 100px;
