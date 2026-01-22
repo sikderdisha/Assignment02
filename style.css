@@ -82,6 +82,23 @@ color: white;
     width: 100px;
     height: 150px;
 }
+.new{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    width: 45px;
+    height: 30px;
+    border-radius: 45%;
+    background-color: #00FF88;
+    animation: pulse 1s infinite alternate;
+}
+.new p{
+    color:rgb(7, 7, 7);
+    text-align: center;
+    position: absolute;
+    top: 16%;
+    left:15%;
+}
 .banner-des{
     color: white;
     display: flex;
@@ -341,5 +358,15 @@ color: white;
     position: absolute;
     top: 140%;
      left:44%;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1); 
+    }
+    100% {
+        transform: scale(1.2);
+    }
 }
 
